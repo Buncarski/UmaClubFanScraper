@@ -13,3 +13,6 @@ D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.p
 D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.genruntimeconfig.cache
 D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\ref\UmaClubFanScraper.dll
 D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.sourcelink.json
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.csproj.AssemblyReference.cache
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubF.0A357A54.Up2Date

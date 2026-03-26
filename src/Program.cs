@@ -1,11 +1,14 @@
-﻿using UmaClubFanScraper;
+﻿using Consumers;
 
-public static class Program
+namespace main
+{
+    public static class Program
 {
     public static void Main(string[] args)
     {
-        Scraper umaClubFanScraper = new Scraper();
+        UmaClubFanScraper umaClubFanScraper = new UmaClubFanScraper();
 
         umaClubFanScraper.Run();
     }
+}
 }
