@@ -1,8 +1,10 @@
-﻿public static class Program
+﻿using UmaClubFanScraper;
+
+public static class Program
 {
     public static void Main(string[] args)
     {
-        UmaClubFanScraper umaClubFanScraper = new UmaClubFanScraper();
+        Scraper umaClubFanScraper = new Scraper();
 
         umaClubFanScraper.Run();
     }

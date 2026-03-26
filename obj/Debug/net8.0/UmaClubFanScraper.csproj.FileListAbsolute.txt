@@ -12,3 +12,4 @@ D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\refint\UmaClubFanSc
 D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.pdb
 D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.genruntimeconfig.cache
 D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\ref\UmaClubFanScraper.dll
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.sourcelink.json
