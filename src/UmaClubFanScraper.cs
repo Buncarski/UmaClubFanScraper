@@ -17,11 +17,28 @@ namespace main
         public Dictionary<string, int> trainers;
         public void Run()
         {
-            Console.WriteLine("Beginning Scraping of fans for the desired uma club.");
-            var jsonObject = fanScraper.ScrapeFansJson();
-            fileProcessor.SetTrainerNamesAsKeys(fileProcessor.ReadTrainers(), out trainers);
-            fileProcessor.AssignFansToTrainersFromJson(jsonObject, trainers);
-            Console.WriteLine(trainers);
+
+            Console.WriteLine("Beginning Scraping of fans for the desired uma clubs.");
+            
+            //string path =new DirectoryInfo(Environment.CurrentDirectory).FullName;
+
+            //Console.WriteLine(path);
+
+
+            var clubsToScrapeFor = JObject.Parse(File.ReadAllText("Sources\\CircleIds.json"))["Clubs"];
+            Console.WriteLine($"Found {clubsToScrapeFor.Value<JArray>().Count} clubs to scrape for.");
+            foreach(JToken club in clubsToScrapeFor)
+            {
+                Console.WriteLine($"Beginning scraping for club: {club["name"]}");
+                var jsonObject = fanScraper.ScrapeFansJson((int)club["circle_id"]);
+
+                fileProcessor.SetTrainerNamesAsKeys(fileProcessor.ReadTrainers((string)club["name"]), out trainers);
+                fileProcessor.AssignFansToTrainersFromJson(jsonObject, trainers);
+
+                fileProcessor.CreateFile((string)club["name"], trainers);
+
+                Console.WriteLine($"Successfully processed club.");
+            }
         }
     }
 }

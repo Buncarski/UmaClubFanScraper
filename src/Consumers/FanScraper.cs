@@ -13,17 +13,21 @@ namespace Consumers
     {
         private HttpClient httpClient = new HttpClient();
         public FanScraper(){}
-        public JObject ScrapeFansJson()
+        public JObject ScrapeFansJson(int circle_id, int year = -1, int month = -1)
         {
+            string formattedUrl = string.Format(
+                Data.UmaMoeUrl, 
+                circle_id, 
+                year == -1 ? DateTime.Today.Year : year, 
+                month == -1 ? DateTime.Today.Month : month);
             JObject jsonObject = new JObject();
             try
             {
-                var jsonString = httpClient.GetStringAsync(Data.UmaMoeUrl).Result;
+                var jsonString = httpClient.GetStringAsync(formattedUrl).Result;
                 jsonObject = JObject.Parse(jsonString);
             }
             catch (Exception e)
             {
-                Console.WriteLine("Encountered an issue:");
                 Console.WriteLine(e.Message);
             }
 
