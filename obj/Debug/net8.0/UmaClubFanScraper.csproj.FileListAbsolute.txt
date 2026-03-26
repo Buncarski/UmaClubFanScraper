@@ -1,0 +1,14 @@
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\bin\Debug\net8.0\UmaClubFanScraper.exe
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\bin\Debug\net8.0\UmaClubFanScraper.deps.json
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\bin\Debug\net8.0\UmaClubFanScraper.runtimeconfig.json
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\bin\Debug\net8.0\UmaClubFanScraper.dll
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\bin\Debug\net8.0\UmaClubFanScraper.pdb
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.AssemblyInfoInputs.cache
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.AssemblyInfo.cs
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.csproj.CoreCompileInputs.cache
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.dll
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\refint\UmaClubFanScraper.dll
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.pdb
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\UmaClubFanScraper.genruntimeconfig.cache
+D:\Code\UmaClubFanScraper\UmaClubFanScraper\obj\Debug\net8.0\ref\UmaClubFanScraper.dll
