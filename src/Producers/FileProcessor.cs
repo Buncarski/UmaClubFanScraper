@@ -53,7 +53,7 @@ namespace Processors
 
                     if (trainers.ContainsKey(trainerName))
                     {
-                        int fans = GetFansForTrainer(member);
+                        int fans = GetFansForTrainer(member, day);
                         trainers[trainerName] = fans;
                     }
                 }
